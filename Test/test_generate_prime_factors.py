@@ -13,3 +13,6 @@ def test_if_two_called():
 #step 4 return [3] if 3 is called
 def test_if_three_called():
     assert generate_prime_factors(3) == [3]
+#step 4 return [3] if 3 is called
+def test_if_four_called():
+    assert generate_prime_factors(4) == [2,2]
