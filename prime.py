@@ -10,3 +10,8 @@ def generate_prime_factors(n):
         return [2]
     if n == 3:
         return [3]
+    factors = []
+    while n % 2 == 0:
+        factors.append(2)
+        n //= 2
+    return factors
