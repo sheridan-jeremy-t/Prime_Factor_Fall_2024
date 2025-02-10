@@ -7,10 +7,10 @@ def test_not_integer():
     """test to see if input was an integer if not return ValueError"""
     with pytest.raises(ValueError):
         generate_prime_factors("Hello")
-#step 2 return empty list if n == 1
 def test_input():
     """main function for assert"""
-    assert generate_prime_factors(1)
+# step 2 return empty list if n == 1
+    assert not generate_prime_factors(1)
 #step 3 return [2] if 2 is called
     assert generate_prime_factors(2) == [2]
 #step 4 return [3] if 3 is called
