@@ -16,6 +16,9 @@ def test_if_three_called():
 #step 5 return [2,2] if 4 is called
 def test_if_four_called():
     assert generate_prime_factors(4) == [2,2]
-#step 6 return [2,3] if 6 is called, reset commits
+#step 6 return [2,3] if 6 is called
 def test_if_six_called():
     assert generate_prime_factors(6) == [2,3]
+#step 7 return [2,2,2] if 8 is called
+def test_if_eight_called():
+    assert generate_prime_factors(8) == [2,2,2]
