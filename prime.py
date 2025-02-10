@@ -6,3 +6,5 @@ def generate_prime_factors(n):
         raise ValueError("Not an integer")
     if n == 1:
         return []
+    if n == 2:
+        return [2]
