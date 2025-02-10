@@ -22,3 +22,6 @@ def test_if_six_called():
 #step 7 return [2,2,2] if 8 is called
 def test_if_eight_called():
     assert generate_prime_factors(8) == [2,2,2]
+#step 8 return [3,3] if 9 is called
+def test_if_nine_called():
+    assert generate_prime_factors(9) == [3,3]
